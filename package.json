@@ -1,0 +1,27 @@
+{
+  "name": "checkbashisms",
+  "main": "./lib/checkbashisms",
+  "version": "0.0.1",
+  "description": "Checks shell scripts for bashisms",
+  "keywords": [
+    "bash",
+    "zsh",
+    "bashisms",
+    "bashism",
+    "shell",
+    "sh"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "activationHooks": ["language-shellscript:grammar-used"],
+  "repository": "https://github.com/atom/checkbashisms",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
