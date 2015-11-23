@@ -36,6 +36,7 @@ module.exports = Checkbashisms =
     provider = new LinterProvider()
     return {
       grammarScopes: ['source.shell']
+      name: 'checkbashisms'
       scope: 'file'
       lint: provider.lint
       lintOnFly: true
