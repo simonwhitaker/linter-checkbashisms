@@ -1,7 +1,7 @@
 {
   "name": "checkbashisms",
   "main": "./lib/checkbashisms",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Checks shell scripts for bashisms",
   "keywords": [
     "bash",
@@ -19,7 +19,7 @@
     }
   },
   "activationHooks": ["language-shellscript:grammar-used"],
-  "repository": "https://github.com/atom/checkbashisms",
+  "repository": "https://github.com/simonwhitaker/atom-checkbashisms",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

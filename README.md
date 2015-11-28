@@ -19,4 +19,3 @@ On Debian-style Linuxes:
 On Mac OS X:
 
     brew install checkbashisms
-    
