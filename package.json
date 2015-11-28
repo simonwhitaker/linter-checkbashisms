@@ -18,9 +18,6 @@
       }
     }
   },
-  "activationHooks": [
-    "language-shellscript:grammar-used"
-  ],
   "repository": "https://github.com/simonwhitaker/atom-checkbashisms",
   "license": "MIT",
   "engines": {
