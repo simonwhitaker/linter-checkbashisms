@@ -23,11 +23,11 @@ module.exports = class LinterProvider
         for line in data
           console.log "checkbashisms provider: #{line}" if atom.inDevMode()
           if line.match regex
-            [file, line, message] = line.match(regex)[1..3]
+            [file, lineno, message] = line.match(regex)[1..3]
             toReturn.push(
               type: 'error',
               text: message,
               filePath: path.join(cwd, file).normalize()
-              range: [[line - 1, 0], [line - 1, 0]]
+              range: [[lineno - 1, 0], [lineno - 1, line.length - 1]]
             )
         Resolve toReturn
