@@ -5,7 +5,7 @@ module.exports = Checkbashisms =
     executablePath:
       title: 'checkbashisms script path'
       type: 'string'
-      default: '/usr/local/bin/checkbashisms'
+      default: 'checkbashisms'
 
   activate: ->
     console.log 'Activating checkbashisms'

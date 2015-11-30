@@ -10,7 +10,8 @@ Bashisms are constructs often found in shell scripts that are only guaranteed to
 
 ## Prerequisites
 
-You'll need a copy of `checkbashisms` installed; this package assumes it's at `/usr/local/bin/checkbashisms` but you can change that in Atom's settings.
+You'll need a copy of `checkbashisms` installed on your `$PATH`. You can also
+manually set the path in Atom's settings.
 
 On Debian-style Linuxes:
 
