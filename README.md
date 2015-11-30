@@ -14,7 +14,7 @@ You'll need a copy of `checkbashisms` installed; this package assumes it's at `/
 
 On Debian-style Linuxes:
 
-    apt-get devscripts
+    apt-get install devscripts
 
 On Mac OS X:
 
